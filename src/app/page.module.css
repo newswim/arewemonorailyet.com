@@ -8,17 +8,29 @@
 }
 
 .no {
-  display: inherit;
-  justify-content: inherit;
-  align-items: inherit;
-  font-size: 12rem;
-  max-width: var(--max-width);
+  display: block;
   width: 100%;
-  z-index: 2;
-  font-family: var(--font-plex);
+  text-align: center;
+  font-size: 12rem;
+  background-color: #e56969bf;
 }
 
 .chart_wrapper {
-  font-family: var(--font-plex);
   max-width: 80rem;
+}
+
+.part {
+  font-size: 2rem;
+  padding: 0 1em;
+  background-color: #e2e21863;
+}
+
+.total {
+  font-size: 3rem;
+}
+
+.total pre {
+  text-decoration: underline;
+  text-decoration-color: aquamarine;
+  text-align: center;
 }
