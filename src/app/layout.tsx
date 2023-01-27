@@ -1,4 +1,4 @@
-import { plex } from './font'
+import { plex } from '@/components/font'
 import './globals.css'
 
 export default function RootLayout({
