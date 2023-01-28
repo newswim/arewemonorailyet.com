@@ -1,4 +1,5 @@
-import { plex } from '@/components/font'
+import { plex } from '@/app/components/font'
+import { AnalyticsWrapper } from '@/app/components/Analytics'
 import './globals.css'
 
 export default function RootLayout({
@@ -14,6 +15,7 @@ export default function RootLayout({
       */}
       <head />
       <body>{children}</body>
+      <AnalyticsWrapper />
     </html>
   )
 }
